@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "myFont";
+    src: url("fonts/Future\ TimeSplitters.otf");
+}
+body{
+    margin:0 30%;
+}
+.welcome
+{
+    background-image: url("Images/welcome.jpg");
+    background-size:contain;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.btns{
+    margin-top: 50px;
+}
+.name
+{
+    font-family: fantasy;
+    font-size: 100px;
+    background: -webkit-linear-gradient(yellow, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.signin
+{
+    height: 30px;
+    width: 300px;
+    background-color:greenyellow;
+    border-radius: 5%;
+}
+
+.continue:hover,.newGame:hover{
+    cursor: pointer;
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+a
+{
+    text-decoration: none;
+    font-family: cursive;
+    font-style: oblique;
+    margin: 0 50px;
+    font-size: 20px;
+}
+.lastPage{
+    display: flex;
+ background-color:rgba(0,0,0,0.7);
+    display: none;
+    height: 618px;
+    width: 600px;
+    text-align: center;
+    position: absolute;
+    top: 0.5%;
+}
+.gameOver{
+    font-family: fantasy;
+font-weight: bold;
+    font-size:125px;
+    background: -webkit-linear-gradient(yellow,rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 35%;
+}
+
+.controller {
+    height: 108px;
+    width: 600px;
+    background-image: url(images/foreground3.jpg);
+    display: none;
+    position: absolute;
+    top: 515px;
+}
+
+.number {
+    display: inline-block;
+}
+#live{
+    color: black
+}
+
+.item {
+    display: inline-block;
+    font-size: 35px;
+    font-family: "myFont", "Bitstream Vera Serif", serif;
+    margin-right: 52px;
+    margin-left: 51px;
+    margin-top: 0.2rem;
+}
+
+.mute {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 90%;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(images/mute-icon.png);
+}
+
+.pause {
+    height: 40px;
+    width: 40px;
+    margin-top: 7px;
+    margin-left: 58%;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(images/pause-icon.png);
+}
+.heart
+{
+    color: red;
+}
+.player{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:10px;
+    display: none;
+    left: 31%;
+    font-family: cursive;
+    font-size: 40px;
+
+}
+.canvas{
+    margin-top:1%;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/bird.png">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+</head>
+
+<body>
+    <div class="welcome">
+        <h1 class="name">FlappyBird</h1>
+        <form >
+            <input class="signin" type="text" placeholder="Enter Your Name" required>
+        </form>
+        <div class="btns">
+            <a class="continue">Continue</a>
+            <a class="newGame">New Game</a>
+        </div>
+    </div>
+    <div class="player"></div>
+    <canvas class="canvas" width="600" height="600" style="background-color: gray; display:none; "></canvas>
+    <div class = "controller">
+        <div class="item"> Score : <div class="number" id="score">0</div> </div>
+        <div class="item heart"> &#10084; <div class="number" id="live">3</div> </div>
+        <div class="item"> Level : <div class="number" id="level">1</div> </div>
+        <div class="mute"></div>
+        <br> 
+        <!-- <div class="pause"></div> -->
+    </div>
+    <div class="lastPage">
+        <div class="gameOver"> Game Over</div class="">
+    </div>
+    <!-- <script src="localStorage.js"></script> -->
+    <script src="main.js"></script>
+    <script src="localStorage.js"></script>
+</body>
+</html>
